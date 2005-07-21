@@ -1,16 +1,10 @@
-Cobalt-LCD version 0.01
-=======================
+Cobalt::LCD version 0.01
+===============================
 
-The README is used to introduce the module and provide instructions on
-how to install the module, any machine dependencies it may have (for
-example C compilers and installed libraries) and any other information
-that should be provided before the module is installed.
+Cobalt::LCD is something I cooked up to make it easier to access the functionality available through my cobalt-panel-utils package.  It's mainly wrappers with extra code to make it a bit more usable and functional.  I haven't written any documentation yet, mostly because I'm lazy and trying to finish so many things at once.
 
-A README file is required for CPAN modules since CPAN extracts the
-README file from a module distribution so that people browsing the
-archive can use it get an idea of the modules uses. It is usually a
-good idea to provide version information here so that people can
-decide whether fixes for the module are worth downloading.
+If you have problems with this module, or even simply find it useful, feel free to send mail to the author, Jeff Walter, at jeffw@404ster.com .
+
 
 INSTALLATION
 
@@ -21,20 +15,20 @@ To install this module type the following:
    make test
    make install
 
+
 DEPENDENCIES
 
 This module requires these other modules and libraries:
 
-  blah blah blah
+	Timer::HiRes
+	My linux kernel patch for hardward support (available from http://gentoo.404ster.com/)
+	Gentoo's sys-apps/cobalt-panel-utils 
 
-COPYRIGHT AND LICENCE
 
-Put the correct copyright and licence information here.
+COPYRIGHT AND LICENSE
 
-Copyright (C) 2005 by A. U. Thor
+Copyright (C) 2005 Jeff Walter <jeffw@404ster.com>
 
 This library is free software; you can redistribute it and/or modify
-it under the same terms as Perl itself, either Perl version 5.8.2 or,
-at your option, any later version of Perl 5 you may have available.
-
+it under the same terms of the GPL-2 license.
 

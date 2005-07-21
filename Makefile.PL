@@ -8,5 +8,5 @@ WriteMakefile(
     PREREQ_PM         => {}, # e.g., Module::Name => 1.1
     ($] >= 5.005 ?     ## Add these new keywords supported since 5.005
       (ABSTRACT_FROM  => 'lib/Cobalt/LCD.pm', # retrieve abstract from module
-       AUTHOR         => 'A. U. Thor <illogical@rhs-inc.com>') : ()),
+       AUTHOR         => 'Jeff Walter <jeffw@404ster.com>') : ()),
 );
